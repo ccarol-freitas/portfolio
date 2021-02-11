@@ -281,6 +281,10 @@ i {
         padding: 0 0 0 2rem;
         border-left: 0.5rem solid #00BFFF;
     }
+
+    .nav-link {
+        text-align: center !important;
+    }
 }
 
 .projects-section .project-text {
