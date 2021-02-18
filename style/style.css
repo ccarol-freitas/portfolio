@@ -55,7 +55,21 @@ h1.text-code,
 h2.text-code,
 h3.text-code,
 h4.text-code,
-h5.text-code,
+h5.text-code {
+    font-family: 'Roboto Mono', 'Space Mono' !important;
+    color: #7f7f7f !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
+
+.link-bookmark {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #00BFFF !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
 h6.text-code {
     font-family: 'Roboto Mono', 'Space Mono' !important;
     color: #7f7f7f !important;
@@ -268,15 +282,44 @@ i {
     margin-bottom: 2rem;
 }
 
+
+
+.writing-section {
+    padding: 10rem 0;
+}
+
+.writing-section .featured-text {
+    padding: 2rem;
+    border-left: 0.5rem solid #00BFFF;
+}
+
+.writing-section .project-text {
+    padding: 3rem;
+    font-size: 90%;
+
+}
+
 .projects-section {
     padding: 10rem 0;
 }
 
 .projects-section .featured-text {
     padding: 2rem;
+    border-left: 0.5rem solid #00BFFF;
 }
 
-@media (min-width: 992px) {
+.projects-section .project-text {
+    padding: 3rem;
+    font-size: 90%;
+
+}
+
+@media only screen and (max-width:620px) {
+    .writing-section .featured-text {
+        padding: 0 0 0 2rem;
+        border-left: 0.5rem solid #00BFFF;
+    }
+
     .projects-section .featured-text {
         padding: 0 0 0 2rem;
         border-left: 0.5rem solid #00BFFF;
@@ -285,14 +328,54 @@ i {
     .nav-link {
         text-align: center !important;
     }
+
+
+    .card-body {
+        width: 100%;
+    }
+
+    .card-body img {
+        width: 100%;
+        padding: 0 0 20px 0 !important;
+    }
+
+    p.text-code {
+        font-size: 13px;
+    }
+
+    p.text-void {
+        font-size: 14px;
+    }
+
+    a.link-insta {
+        font-size: 1.0rem;
+    }
+
+    .coluna img {
+        width: 50px !important;
+        height: 70px !important;
+        margin: 20px !important;
+    }
+
+    .nav-link {
+        text-transform: uppercase !important;
+        font-weight: 500 !important;
+    }
+
+    footer span {
+        bottom: 90px !important;
+    }
+
+    .card-footer {
+        font-size: 14px !important;
+    }
 }
 
-.projects-section .project-text {
-    padding: 3rem;
-    font-size: 90%;
-}
 
-@media (min-width: 992px) {
+
+
+
+@media only screen and (max-width:768px) {
     .projects-section .project-text {
         padding: 5rem;
     }
@@ -302,4 +385,34 @@ i {
         border-width: 0.25rem;
         width: 30%;
     }
+
+    .card-body img {
+        width: 100%;
+        padding: 0 0 20px 0 !important;
+    }
+
+    .title-void,
+    .subtitle-void {
+        font-size: 30px;
+    }
+
+    p.text-code {
+        font-size: 13px;
+    }
+
+    p.text-void {
+        font-size: 14px;
+    }
+
+    a.link-insta {
+        font-size: 1.0rem;
+    }
+
+    h3.text-code {
+        font-size: 21px !important;
+    }
+}
+
+.card-body img {
+    padding-right: 25px;
 }
