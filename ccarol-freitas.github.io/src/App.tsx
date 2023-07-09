@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import Home from "./pages/home/Home";
+import Global from "./ui/styles/global";
 
-function App() {
+const App = () => {
   return (
     <>
-     <h1>New page</h1>
+      <Global />
+      <Home />
     </>
   );
-}
-
+};
 export default App;
