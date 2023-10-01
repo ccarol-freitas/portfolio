@@ -32,6 +32,7 @@ const Home = () => {
         setToogled={handleTabClicked}
         className="fixed-bottom-tab"
       />
+    
     </Container>
   );
 };

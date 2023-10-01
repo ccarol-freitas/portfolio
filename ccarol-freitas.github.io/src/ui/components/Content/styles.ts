@@ -10,15 +10,14 @@ export const Box = styled.div`
   background: #00F0FF;
   overflow-y: auto;
 
-    /* Estilos personalizados para a barra de rolagem */
     ::-webkit-scrollbar {
-    width: 10px; /* Largura da barra de rolagem */
-    background-color: #00F0FF; /* Remover o fundo cinza */
-  }
-
+    width: 10px; 
+    background-color: #00F0FF;
+    }
+    
   ::-webkit-scrollbar-thumb {
-    background-color: #000; /* Cor do polegar da barra de rolagem */
-    border-radius: 5px; /* Raio de borda do polegar da barra de rolagem */
+    background-color: #000;
+    border-radius: 5px; 
   }
 
   /* Largura menor que 768px */
