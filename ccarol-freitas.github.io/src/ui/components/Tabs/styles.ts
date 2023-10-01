@@ -6,7 +6,7 @@ export const Tab = styled.div`
     height: 63px;
     background: #FF003C;
     margin-top: 16px;
-    cursor: pointer;
+ 
 
     .tab-active {
         background: #FF406C;
@@ -29,6 +29,7 @@ export const TabSelector = styled.button`
     gap: 10px;
     border: none;
     background: transparent;
+    cursor: pointer;
   
     text-align: center;
     color: #F5F5F5;

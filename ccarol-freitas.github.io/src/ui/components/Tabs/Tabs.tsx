@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Tab, TabSelector } from './styles.ts';
+import { Tab, TabSelector } from './styles';
 
 type Props = {
   tagInitial: string;
