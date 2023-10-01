@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./pages/home/Home";
 import Global from "./ui/styles/global";
-import Header from "./pages/home/components/Header/Header";
+import Header from "./ui/components/Header/Header";
 
 const App = () => {
   return (
