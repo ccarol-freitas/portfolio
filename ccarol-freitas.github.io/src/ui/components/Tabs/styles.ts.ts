@@ -6,6 +6,7 @@ export const Tab = styled.div`
     height: 63px;
     background: #FF003C;
     margin-top: 16px;
+    cursor: pointer;
 
     .tab-active {
         background: #FF406C;

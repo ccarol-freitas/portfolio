@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Title } from './HeaderStyles'
+import { Box, Title } from './styles.ts'
 
 const Header = () => {
     return(

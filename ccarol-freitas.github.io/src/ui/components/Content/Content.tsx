@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "./ContentStyles";
+import { Box } from "./styles";
 import { PropsContent } from "../../../data/@types/types";
 
 const Content = (props: PropsContent) => {
