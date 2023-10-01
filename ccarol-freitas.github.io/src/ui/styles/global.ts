@@ -8,14 +8,14 @@ export const Global = createGlobalStyle`
     box-sizing: border-box;
   }
   :root {
-      font-size: ${px2vw(48)};
+      font-size: ${px2vw(24)};
 
       @media (min-width: 768px) {
-        font-size: ${px2vw(40)};
+        font-size: ${px2vw(18)};
       }
 
       @media (min-width: 1024px) {
-        font-size: ${px2vw(38)};
+        font-size: ${px2vw(16)};
       }
     }
 `;
