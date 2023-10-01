@@ -13,6 +13,7 @@ type Props = {
     className?: string
 }
 
+
 const Tabs = (props: Props): JSX.Element => {
     const [selectedShow, setSelectedShow] = useState(props.tagInitial)
 
@@ -22,6 +23,7 @@ const Tabs = (props: Props): JSX.Element => {
             props.setToogled(!props.toggled)
         }
     }
+    
     return (
         <Tab className={props.className}>
             {props.tabs.map((tab) => {
@@ -30,8 +32,8 @@ const Tabs = (props: Props): JSX.Element => {
                     <TabSelector
                         className={`${
                             isSelected === true
-                                ? 'tab-active primaryPurple100-bold-20'
-                                : 'enableGray700-bold-20'
+                                ? 'tab-active primaryPurple100-bold-24'
+                                : 'primaryPurple100-normal-24'
                         }`}
                         key={tab.name}
                         onClick={() => {
