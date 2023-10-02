@@ -6,11 +6,14 @@ export const Box = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
-    gap: 8px;
+    gap: 14px;
     border: 2px solid #000;
     background: #FF003C;
-    height: 156px;
     cursor: pointer;
+
+    iframe {
+        overflow: hidden;
+    }
 
    :hover { 
         background: #AF0029;
@@ -32,11 +35,15 @@ export const Box = styled.div`
 `
 
 export const Title = styled.h1`
-    color: #FFF;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     white-space: nowrap;
+
+    a {
+        color: #FFF;
+        font-family: 'IBM Plex Sans Condensed', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+    }
 `

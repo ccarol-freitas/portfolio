@@ -14,3 +14,14 @@ export interface SkillsInfoProps {
   title: string;
   img: string;
 }
+
+export interface ProjectsInfoProps {
+  title: string;
+  link: string;
+}
+
+export interface SlideShowProps {
+  projects: ProjectsInfoProps[];
+  currentIndex: number | null;
+  onClose: () => void;
+}

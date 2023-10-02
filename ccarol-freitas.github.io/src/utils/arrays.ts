@@ -18,7 +18,7 @@ import GitlabIcon from '../images/gitlab.svg';
 import BootstrapIcon from '../images/bootstrap.svg';
 import VscodeIcon from '../images/vscode.svg';
 
-import { SocialInfoProps, SkillsInfoProps } from '../data/@types/types';
+import { SocialInfoProps, SkillsInfoProps, ProjectsInfoProps } from '../data/@types/types';
 
 export const mySocialArray: SocialInfoProps[] = [
     {
@@ -106,4 +106,20 @@ export const mySkills: SkillsInfoProps[] = [
         title: "Linux",
         img: LinuxIcon,
     },
+];
+
+export const myProjects: ProjectsInfoProps[] = [
+    {
+        title: "JML PALLETS",
+        link: "https://jlmpallets.com.br/",
+    },
+    {
+        title: "PERISSON PALLETS",
+        link: "https://perissonpallets.com.br/",
+    },
+    {
+        title: "MULHERES JORNALISTAS",
+        link: "https://mulheresjornalistas.com/",
+    },
+    
 ];

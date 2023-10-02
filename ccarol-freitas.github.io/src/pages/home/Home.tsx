@@ -1,5 +1,6 @@
 import React, { useState, useEffect, ReactElement } from "react";
-import { Container, ContentContainer, TabContent } from "./HomeStyles";
+
+import { Container, ContentContainer, TabContent } from "./styles";
 import Tabs from "../../ui/components/Tabs/Tabs";
 import Content from "../../ui/components/Content/Content";
 import ByographAvatar from "../../images/byograph.png";
@@ -7,20 +8,20 @@ import ProjectsAvatar from "../../images/projects.png";
 import ArticlesAvatar from "../../images/articles.png";
 import ByographContent from "../Byograph/Byograph";
 import ArticlesContent from "../Articles/Articles";
+import ProjectsContent from "../Projects/Projects";
 
 const Home = () => {
   const [backgroundImage, setBackgroundImage] = useState(ByographAvatar);
-  const [renderComponent, setRenderComponent] = useState<ReactElement>();
-  const [showContent, setShowContent] = useState(true);
+  const [renderComponent, setRenderComponent] = useState<ReactElement | null>(
+    null
+  );
 
-  // useEffect(() => {
-  //   if (!tagInitial) {
-  //     setBackgroundImage(ByographAvatar);
-  //     setShowContent(false);
-  //   } else {
-  //     setShowContent(true);
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (backgroundImage === "") {
+      setBackgroundImage(ByographAvatar);
+    }
+    setRenderComponent(null);
+  }, []);
 
   const handleTabClicked = (tab: string) => {
     switch (tab) {
@@ -30,36 +31,42 @@ const Home = () => {
         break;
       case "projects":
         setBackgroundImage(ProjectsAvatar);
-        setRenderComponent(undefined);
+        setRenderComponent(<ProjectsContent />);
         break;
       default:
         setBackgroundImage(ArticlesAvatar);
-        setRenderComponent(ArticlesContent);
+        setRenderComponent(<ArticlesContent />);
     }
   };
 
   return (
-    <Container>
-      <Tabs
-        tagInitial="byograph"
-        tabs={[
-          { name: "Biografia", selected: "byograph" },
-          { name: "Projetos", selected: "projects" },
-          { name: "Artigos", selected: "articles" },
-        ]}
-        setToogled={handleTabClicked}
-        className="fixed-bottom-tab"
-      />
-      <ContentContainer>
-        <TabContent>
-          <img src={backgroundImage} alt="" />
-        </TabContent>
+    <>
+      <Container>
+        <Tabs
+          tabs={[
+            { name: "Biografia", selected: "byograph" },
+            { name: "Projetos", selected: "projects" },
+            { name: "Artigos", selected: "articles" },
+          ]}
+          setToogled={handleTabClicked}
+          className="fixed-bottom-tab"
+          tagInitial={""}
+        />
+        <ContentContainer>
+          <TabContent>
+            <img
+              src={backgroundImage}
+              alt=""
+              className={backgroundImage === "" ? "mobile-show" : "mobile-hide"}
+            />
+          </TabContent>
 
-        <TabContent>
-          <Content children={renderComponent} />
-        </TabContent>
-      </ContentContainer>
-    </Container>
+          <TabContent>
+            {renderComponent && <Content children={renderComponent} />}
+          </TabContent>
+        </ContentContainer>
+      </Container>
+    </>
   );
 };
 

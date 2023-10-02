@@ -1,14 +1,25 @@
 import { Box, Title } from "./styles";
 
 type Props = {
-    text?: string;
-    thumb?: string;
-  };
+  text?: string;
+  thumb?: string;
+  subtitle?: string;
+  onClick?: () => void;
+};
 
 const CardPinkSmall = (props: Props) => (
   <Box>
-    {/* <img src={props.thumb} alt="" /> */}
-    <Title>{props.text}</Title>
+    <iframe
+      title={props.subtitle}
+      src={props.thumb}
+      width="192px"
+      height="156px"
+    ></iframe>
+    <Title onClick={props.onClick}>
+      <a href={props.thumb} target="_blank">
+        {props.text}
+      </a>
+    </Title>
   </Box>
 );
 

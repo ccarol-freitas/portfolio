@@ -32,6 +32,10 @@ export const Card = styled.div`
     background: #FF003C;
     margin:16px 63px 10px 63px;
 
+    @media (min-height: 500px) and (max-width: 700px) {
+        margin: 16px 24px 10px 24px;
+    }
+
     a {
         color: #FFF;
         font-family: 'IBM Plex Sans Condensed', sans-serif;

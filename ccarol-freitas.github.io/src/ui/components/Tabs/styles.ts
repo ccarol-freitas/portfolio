@@ -19,6 +19,8 @@ export const Tab = styled.div`
     .primaryPurple100-bold-24 {
         font-weight: 700;
     }
+
+    
 `
 
 export const TabSelector = styled.button`

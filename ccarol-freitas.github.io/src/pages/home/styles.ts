@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-import ByographAvatar from '../../images/byograph.png';
-import ProjectsAvatar from '../../images/projects.png';
-import ArticlesAvatar from '../../images/articles.png';
-
-
 export const Container = styled.div`
     display: flex;
     justify-content: start;
@@ -14,7 +9,7 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
 
-    
+
 
   @media (min-width: 1024px) {
     flex-wrap: nowrap;
@@ -29,6 +24,7 @@ export const Container = styled.div`
     right: 0;
     margin: 0px 40px 32px 40px;
   }
+
 }
 `;
 
@@ -41,13 +37,19 @@ export const ContentContainer = styled.div`
   @media (min-height: 500px) and (max-width: 700px) {
 
   flex-direction: column; 
-    align-items: flex-start
-
   }
 `
 
 export const TabContent = styled.div` 
-  flex: 1; 
+    @media (min-height: 500px) and (max-width: 700px) {
+      .mobile-show {
+        display: block !important;
+      }
+
+      .mobile-hide {
+        display: none !important;
+      }
+    }
 
   img {
     max-width: 100%; 
