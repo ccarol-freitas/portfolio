@@ -3,25 +3,22 @@ import { styled } from "styled-components";
 export const Button = styled.button`
     display: flex;
     padding: 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    justify-content: space-between;
+    width: 131px;
     height: 56px;
     border: 2px solid #0A0A0A;
     background:  #FF003C;
     cursor: pointer;
 
-    :active{
-        background: #FF406C !important ;
-    }
-
-    :hover{
+    
+    &:hover {
         background: #AF0029 !important ;
     }
 
-    :focus{
-        background: #FFDFE7   !important ; 
 
+    img {
+        height: 20px;
+        width: 20px;
     }
 `;
 
@@ -35,4 +32,3 @@ export const Text = styled.p`
     white-space: nowrap;
 `;
 
-export default Button; 

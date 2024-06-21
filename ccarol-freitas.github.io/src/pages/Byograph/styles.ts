@@ -1,20 +1,20 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 24px;
+    padding: 16px 0 16px 16px;
     display: inline-flex;
-    height: 537px;
     flex-direction: column;
     align-items: start;
-    gap: 26px;
-
+    row-gap: 24px;
 `
 
 export const Box = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    row-gap: 8px;
+
+
 
     ul {
         list-style: none;

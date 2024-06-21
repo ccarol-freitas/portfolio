@@ -3,7 +3,7 @@ import DownloadIcon from "../../../images/download.svg";
 
 const Download = () => {
   const handleDownloadClick = () => {
-    window.open("https://drive.google.com/file/d/1HhV_tFZpUzvLFnAYv9wwsxPIKtcZ_K4S/view?usp=drive_link", "_blank");
+    window.open("https://drive.google.com/file/d/1jIdmGFlP0aBqLjTKuAQAzGC41C5eWdDI/view?usp=sharing", "_blank");
   };
 
   return (

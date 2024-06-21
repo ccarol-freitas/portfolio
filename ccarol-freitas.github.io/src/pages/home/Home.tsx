@@ -9,6 +9,7 @@ import ArticlesAvatar from "../../images/articles.png";
 import ByographContent from "../Byograph/Byograph";
 import ArticlesContent from "../Articles/Articles";
 import ProjectsContent from "../Projects/Projects";
+import { ScrollContainer } from "../../ui/components/Scroll/styles";
 
 const Home = () => {
   const [backgroundImage, setBackgroundImage] = useState(ByographAvatar);
@@ -53,6 +54,7 @@ const Home = () => {
           tagInitial={""}
         />
         <ContentContainer>
+
           <TabContent>
             <img
               src={backgroundImage}

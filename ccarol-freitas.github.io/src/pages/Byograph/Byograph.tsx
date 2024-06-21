@@ -13,22 +13,22 @@ const ByographContent = () => {
       <Container>
         <Box>
           <Title>Olá! Eu sou a Carol</Title>
+          <Text><b>Desenvolvedora Front-End</b></Text>
           <Text>
-            Sou desenvolvedora por atração, amante da música, fã de Quentin
-            Tarantino e Edgar Allan Poe, praticante de esportes radicais.
+            Desde 2018, tenho me aprofundado no mundo do desenvolvimento frontend,
+            trabalhando em projetos significativos para fintechs, startups e consultorias.
           </Text>
           <Text>
-            Minha área de atuação é o desenvolvimento web, onde utilizo as
-            tecnologias mais atuais e amplamente reconhecidas.
+            Minhas principais tecnologias incluem ReactJs, JavaScript, TypeScript, Styled-Components,SQL, CSS3, HTML5 e Figma.
+            Foco em criar aplicações que facilitem a experiência de usuário.
           </Text>
           <Text>
-            Tenho um compromisso sólido com a usabilidade e a experiência do
-            usuário em cada site ou aplicação que construo, sempre buscando
-            oferecer a melhor qualidade possível
+            Além de codar, sou apaixonada por Edgar Allan Poe, adoro filmes de terror e pratico esportes radicais.
           </Text>
+
         </Box>
         <Box>
-          <Title>Skills</Title>
+          <Title>Habilidades</Title>
           <ul>
             {mySkills.map((social: SkillsInfoProps, index: number) => (
               <li key={index}>
@@ -38,7 +38,7 @@ const ByographContent = () => {
           </ul>
         </Box>
         <Box>
-          <Title>Minhas redes</Title>
+          <Title>Contato</Title>
           <ul>
             {mySocialArray.map((social: SocialInfoProps, index: number) => (
               <li key={index}>
