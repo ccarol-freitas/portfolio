@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.js": "/static/js/main.9a168432.js",
+    "static/js/453.b2b77754.chunk.js": "/static/js/453.b2b77754.chunk.js",
+    "static/media/articles.png": "/static/media/articles.762f27f57bbca7c111d9.png",
+    "static/media/byograph.png": "/static/media/byograph.fc7e806394f0cea9983d.png",
+    "static/media/projects.png": "/static/media/projects.df38b38eadfc6f72b6cf.png",
+    "static/media/projects_background.png": "/static/media/projects_background.6276c7b247eab403f03b.png",
+    "static/media/gitlab.svg": "/static/media/gitlab.ad19f46497b0df5d30bfef9c85b5097a.svg",
+    "static/media/bg-articles.jpg": "/static/media/bg-articles.b6ff4e9d35e8ae770244.jpg",
+    "static/media/github.svg": "/static/media/github.e5c49f40c26c2c9dd8341b4c18599d96.svg",
+    "static/media/html-5.svg": "/static/media/html-5.66716c6b7c3a61cab622c524cd10dccd.svg",
+    "static/media/css.svg": "/static/media/css.f01cb6a577c0384685989973a5b9a4bd.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.d591e7ec7cbf5cb8c217fd2a73cf52c0.svg",
+    "static/media/react.svg": "/static/media/react.7354300cf0611ead80cf6e69f8a03b36.svg",
+    "static/media/linux.svg": "/static/media/linux.06a502add95fca93f2fe2f5ca842603b.svg",
+    "static/media/github-sign.svg": "/static/media/github-sign.3050dd54c2256870a3b4f7e2029c9ec6.svg",
+    "static/media/figma.svg": "/static/media/figma.e6d86eebb8ab24a2e1e4b1566ec8d182.svg",
+    "static/media/instagram.svg": "/static/media/instagram.07da73a6df5813950f4dbabbfc182189.svg",
+    "static/media/svelte.svg": "/static/media/svelte.038863204613b9da1c2a0e3802bc7cc8.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.1bfad7470c053669d0b96f58a29b1116.svg",
+    "static/media/photoshop.svg": "/static/media/photoshop.d1808eec9407d205b4078f82070f49a0.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.27752e20cf5dbf8c782c84e0103a5196.svg",
+    "static/media/javascript.svg": "/static/media/javascript.fc6d6d4d3009b3de3247bc8a020b01f8.svg",
+    "static/media/vscode.svg": "/static/media/vscode.07d32a2f22e811475b740b83999eee65.svg",
+    "static/media/download.svg": "/static/media/download.3287c2d76ec7462fea0cfd6fe5935277.svg",
+    "index.html": "/index.html",
+    "static/media/windows.svg": "/static/media/windows.917c058910e3b4c6a2f9aabbbde65487.svg",
+    "static/media/typescript.svg": "/static/media/typescript.d3313d870f7128c6327d2a7fba2eb8aa.svg",
+    "main.9a168432.js.map": "/static/js/main.9a168432.js.map",
+    "453.b2b77754.chunk.js.map": "/static/js/453.b2b77754.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9a168432.js"
+  ]
+}
