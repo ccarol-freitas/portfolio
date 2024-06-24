@@ -6,7 +6,6 @@ import TypescriptIcon from '../images/typescript.svg';
 import JavascriptIcon from '../images/javascript.svg';
 import HtmlIcon from '../images/html-5.svg';
 import CssIcon from '../images/css.svg';
-import PhpIcon from '../images/php.svg';
 import PhotoshopIcon from '../images/photoshop.svg';
 import FigmaIcon from '../images/figma.svg';
 import WindowIcon from '../images/windows.svg';

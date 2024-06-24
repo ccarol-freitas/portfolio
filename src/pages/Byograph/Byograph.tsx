@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { SkillsInfoProps, SocialInfoProps } from "../../data/@types/types";
 import Download from "../../ui/components/Button/Button";
 import Tooltip from "../../ui/components/Tooltip";

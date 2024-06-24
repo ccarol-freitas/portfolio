@@ -1,4 +1,4 @@
-import React, { useState, useEffect, ReactElement } from "react";
+import { useState, useEffect, ReactElement } from "react";
 
 import { Container, ContentContainer, TabContent } from "./styles";
 import Tabs from "../../ui/components/Tabs/Tabs";
@@ -24,7 +24,7 @@ const Home = () => {
       setBackgroundImage(ByographAvatar);
     }
     setRenderComponent(null);
-  }, []);
+  }, [backgroundImage]);
 
   const handleTabClicked = (tab: string) => {
     setCurrentTab(tab);

@@ -15,9 +15,10 @@ const CardPinkSmall = (props: Props) => (
       src={props.thumb}
       width="100%"
       height="156px"
+      alt={props.subtitle}
     />
     <Title onClick={props.onClick}>
-      <a href={props.itemLink} target="_blank">
+      <a href={props.itemLink} target="_blank" rel="noopener noreferrer">
         {props.text}
       </a>
     </Title>
