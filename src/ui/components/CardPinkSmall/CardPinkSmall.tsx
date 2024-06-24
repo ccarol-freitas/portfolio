@@ -1,5 +1,4 @@
 import { Box, Title } from "./styles";
-import arrowRight from "../../../images/angle.svg"
 
 type Props = {
   itemLink: string;
