@@ -1,7 +1,7 @@
-# portfolio - ccarol-freitas.github.io
+# portfolio - carol freitas
 
 ### Visual Portfolio
-- https://ccarol-freitas.github.io/
+- [https://ccarol-freitas.github.io/portfolio/](https://ccarol-freitas.github.io/portfolio/)
 
 ### Technologies
 <div>
