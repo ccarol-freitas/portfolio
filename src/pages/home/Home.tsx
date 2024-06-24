@@ -24,7 +24,7 @@ const Home = () => {
       setBackgroundImage(ByographAvatar);
     }
     setRenderComponent(null);
-  }, [backgroundImage]);
+  }, []);
 
   const handleTabClicked = (tab: string) => {
     setCurrentTab(tab);
