@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# portfolio - ccarol-freitas.github.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Visual Portfolio</p>
 
-## Available Scripts
+### Technologies
+<div>
+	<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+	<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+</div>
 
-In the project directory, you can run:
+### Pre-requisites
+<p>You need to have installed on your machine the following tools:</p>
 
-### `npm start`
+- [x] [Node.js](https://nodejs.org/en/)
+- [x] [Git](https://git-scm.com)
+- [x] [VSCode](https://code.visualstudio.com/) (or any other code editor)
+
+### 🎲 Run the Front-End
+
+```bash
+# Clone this repository
+$ git clone <https://github.com/ccarol-freitas/ccarol-freitas.github.io>
+
+# Navigate to the project folder in your terminal.
+$ cd ccarol-freitas.github.io
+
+# Install the dependencies
+$ npm i / npm install
+
+# Start app
+$ npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+### Prototype's link 
+[Click here](https://www.figma.com/proto/QE2dgz2mVBvtCLE0IL4h7g/SIte-Carol-freitas-(Copy)?node-id=224-415&t=nrGOYSz5dtFAUfrd-1&scaling=min-zoom&content-scaling=fixed&page-id=224%3A360&starting-point-node-id=224%3A415
+)
+![image](https://github.com/ccarol-freitas/ccarol-freitas.github.io/assets/54582414/956735ac-b4c8-4cb2-a6d0-d810b4ac58bb)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### OLD Prototype
 
-### `npm test`
+![screencapture-ccarol-freitas-github-io-2024-06-23-16_23_56](https://github.com/ccarol-freitas/ccarol-freitas.github.io/assets/54582414/d28ffe5b-30ca-4f24-8dd7-7fa4b93c84e9)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
