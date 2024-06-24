@@ -7,6 +7,10 @@ export const Container = styled.div`
     justify-content: center;
     gap: 24px;
 
+    a {
+        text-decoration-line: none;
+    }
+
     @media (min-height: 500px) and (max-width: 700px) {
         justify-content: center;
     }

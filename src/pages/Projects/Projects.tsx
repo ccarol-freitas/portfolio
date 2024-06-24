@@ -7,14 +7,14 @@ import thumb from '../../images/projects_background.png'
 const ProjectsContent = () => (
   <Container>
     {myProjects.map((projects: ProjectsInfoProps, index: number) => (
-      <div key={index}>
+      <a key={index} href={projects.link} target="_blank" rel="noopener noreferrer">
         <CardPinkSmall
           text={projects.title}
           thumb={thumb}
           itemLink={projects.link}
           subtitle={projects.title}
         />
-      </div>
+      </a>
     ))}
   </Container>
 );
